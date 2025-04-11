@@ -165,7 +165,7 @@ const About = () => {
               <ListItem>
                 <Box>
                   <Box display="flex" alignItems="center">
-                    <Image src="/images/indeximages/wemind-logo.png" alt="WeMind" width={50} height={50} />
+                    <Image src="/images/works/wemind-logo.webp" alt="WeMind" width={50} height={50} />
                     <Box ml={3}>
                       <Heading as="h4" size="md">{t("job_wemind_title")}</Heading>
                       <Text fontSize="sm" color="gray.500">{t("job_wemind_company")}</Text>
@@ -191,7 +191,7 @@ const About = () => {
               <ListItem>
                 <Box>
                   <Box display="flex" alignItems="center">
-                    <Image src="/images/indeximages/unifan-logo.png" alt="UNIFAN" width={50} height={50} />
+                    <Image src="/images/works/unifan-logo.webp" alt="UNIFAN" width={50} height={50} />
                     <Box ml={3}>
                       <Heading as="h4" size="md">{t("education_unifan_title")}</Heading>
                       <Text fontSize="sm" color="gray.500">{t("education_unifan_institution")}</Text>
