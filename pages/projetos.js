@@ -4,6 +4,7 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 import thumbMemeGenerator from '../public/images/indeximages/Gerador de meme.png';
+import thumbEsqueleto from '../public/images/indeximages/Esqueleto_logo.png';
 
 const Projetos = () => {
   const { t } = useTranslation();
@@ -23,6 +24,15 @@ const Projetos = () => {
               thumbnail={thumbMemeGenerator}
             >
               {t("meme_generator_desc")}
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="esqueleto"
+              title={t("esqueleto_title")}
+              thumbnail={thumbEsqueleto}
+            >
+              {t("esqueleto_desc")}
             </WorkGridItem>
           </Section>
         </SimpleGrid>
