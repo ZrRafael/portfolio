@@ -18,8 +18,6 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5';
 import Image from 'next/image';
-import { FaVuejs, FaAngular, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
-import { SiNextdotjs, SiNuxtdotjs, SiExpress, SiSpringboot, SiDocker, SiTerraform, SiFirebase, SiMysql, SiIonic } from "react-icons/si";
 
 const About = () => {
   const { t } = useTranslation();
