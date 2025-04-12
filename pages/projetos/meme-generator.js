@@ -23,8 +23,8 @@ const Project = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>{t("project_website")}</Meta>
-            <Link href="https://meme-generator-zeta-nine.vercel.app/" target="_blank" color={linkColor}>
-              https://meme-generator-zeta-nine.vercel.app/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://gerador-memes.vercel.app" target="_blank" color={linkColor}>
+              https://meme-generat32or-zeta-nine.vercel.app/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
