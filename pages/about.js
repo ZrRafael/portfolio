@@ -8,8 +8,7 @@ import {
   List,
   ListItem,
   Text,
-  useColorModeValue,
-  useToast
+  useColorModeValue
 } from '@chakra-ui/react';
 import { DownloadIcon } from '@chakra-ui/icons';
 import Paragraph from '../components/paragraph';
@@ -21,7 +20,6 @@ import Image from 'next/image';
 
 const About = () => {
   const { t } = useTranslation();
-  const toast = useToast();
 
   const handleDownloadClick = (e) => {
     e.preventDefault();
