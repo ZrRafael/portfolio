@@ -254,7 +254,7 @@ const About = () => {
               </ListItem>
 
               <ListItem>
-                <Link href="mailto:rafarafanmmn@gmail.com">
+                <Link href="mailto:rafaelaugustowork@gmail.com">
                   <Button 
                     variant="ghost" 
                     leftIcon={<IoMail />}
@@ -263,7 +263,7 @@ const About = () => {
                       bg: useColorModeValue('rgba(107, 70, 193, 0.1)', 'rgba(251, 211, 141, 0.1)')
                     }}
                   >
-                    rafarafanmmn@gmail.com
+                    rafaelaugustowork@gmail.com
                   </Button>
                 </Link>
               </ListItem>
