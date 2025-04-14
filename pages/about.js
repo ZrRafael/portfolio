@@ -25,14 +25,12 @@ const About = () => {
 
   const handleDownloadClick = (e) => {
     e.preventDefault();
-    toast({
-      title: t("download_cv"),
-      description: "Em desenvolvimento / Under development",
-      status: "info",
-      duration: 3000,
-      isClosable: true,
-      position: "top"
-    });
+    const link = document.createElement('a');
+    link.href = '/pdf/Currículo-Rafael.pdf';
+    link.download = 'Currículo-Rafael.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
